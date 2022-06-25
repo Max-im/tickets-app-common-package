@@ -8,6 +8,7 @@ export interface IOrderCreated {
     status: OrderStatus;
     userId: string;
     expiresAt: string;
+    version: number;
     ticket: {
       id: string;
       price: number;
